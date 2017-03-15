@@ -1,0 +1,46 @@
+.btn:focus, .upload-btn:focus{
+  outline: 0 !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  background-color:#fafafa;
+  background-image:linear-gradient(rgba(230,230,230,0.3) 1px, transparent 1px),linear-gradient(90deg, rgba(230,230,230,0.3) 1px, transparent 1px);
+  background-size:6px 6px, 6px 6px, 6px 6px, 6px 6px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;   
+}
+
+.row {
+  margin-top: 80px;
+}
+
+.upload-btn {
+  color: #ffffff;
+  background-color: #ff9100;
+  border: none;
+}
+
+.upload-btn:hover,
+.upload-btn:focus,
+.upload-btn:active,
+.upload-btn.active {
+  color: #ffffff;
+  background-color: #FA8900;
+  border: none;
+}
+
+#upload-input {
+  display: none;
+}
+
+@media (min-width: 900px) {
+  .container {
+    width: 450px;
+  }
+}
